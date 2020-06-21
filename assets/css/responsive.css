@@ -1,4 +1,4 @@
-
+/* =============== *** MEDIA QURIES *** =============== */
 
 /* =============== START: Large devices (desktops, less than 1200 px) =============== */
 
@@ -11,7 +11,7 @@
 
     /* ---- Footer Section ---- */
     .footer-section ul li a {
-        font-size: 20px;
+        font-size: 23px;
     }
 }
 
@@ -24,6 +24,11 @@
     /* ---- Base CSS ---- */
     .section-padding {
         padding: 100px 0;
+    }
+    
+    /* ---- Navbar Section ---- */
+    ul.navbar-nav li.nav-item a.nav-link {
+        padding: 15px 25px;
     }
 
     /* ---- Hero Section ---- */
@@ -63,7 +68,6 @@
         margin-right: 20px;
     }
 
-
     /* ---- Footer Section ---- */
     .footer-section {
         margin-top: 100px;
@@ -71,18 +75,6 @@
 }
 
 /* =============== END: Large devices  =============== */
-
-/* =============== START: Large devices (tablets, 992 px - 1199 px) =============== */
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-    /* ---- Navbar Section ---- */
-    .navbar .navbar-nav li.nav-item a.nav-link {
-        color: #000000;
-    }
-}
-
-/* =============== END: Large devices =============== */
 
 /* =============== START: Medium devices (landscape phones, less than 992 px) =============== */
 
@@ -92,28 +84,31 @@
    .btn-custom {
        font-size: 20px;
        padding: 20px 65px;
-   }
+    }
    .section-padding {
        padding: 80px 0;
-   }
+    }
    .section-title {
        font-size: 45px;
        padding: 30px 0 70px;
-   }
+    }
 
    /* ---- Navbar Section ---- */
    .navbar .navbar-nav li.nav-item {
        text-align: center;
-   }
+    }
 
     /* ---- Hero Section ---- */
    .hero-section p {
     text-align: center;
     width: 100%;
-   }
+    }
    .hero-section .hero-btn {
         text-align: center;
-   }
+    }
+    .hero-section img.hero-img {
+        padding-top: 120px;
+    }
 
     /* ---- About Section ---- */
     .about-section .bg-shape2 {
@@ -131,30 +126,30 @@
     .work-section .bg-shape2 {
        left: 20px;
        bottom: 0;
-   }
+    }
    .work-section p.work-sec-text {
        font-size: 20px;
        margin-bottom: 20px;
-   }
+    }
 
    /* ---- Client Section ---- */
    .clients-section .feedback-body {
        text-align: center;
        margin-bottom: 50px;
-   }
+    }
    .clients-section p.feedback-text {
        margin: 0 auto 40px;
-   }
+    }
 
    /* ---- Sign-in Section ---- */
    .sing-in-section form {
        margin-right: 0;
        margin-bottom: 30px;
        text-align: center;
-   }
+    }
    .sing-in-section .sign-in-btn {
        text-align: center;
-   }
+    }
 
    /* ---- Footer Section ---- */
     .footer-section {
@@ -162,20 +157,16 @@
     }
    .footer-section ul li:first-child {
        margin-bottom: 20px;
-   }
+    }
+    .footer-section ul li a {
+        font-size: 20px;
+    }
    .footer-section .features, 
    .footer-section .resources,
    .footer-section .company {
        margin-bottom: 30px;
-   }
+    }
 
-   .footer-section .features, 
-   .footer-section .resources,
-   .footer-section .company,
-   .footer-section .contact,
-   .footer-section .social-icon {
-       text-align: center;
-   }
 }
 
 /* =============== END: Medium devices =============== */
@@ -191,6 +182,10 @@
     }
 
     /* ---- About Section ---- */
+    .hero-section .bg-shape1,
+    .hero-section .bg-shape2 {
+        display: none;
+    }
     .hero-section h1 {
         font-size: 50px;
     }
@@ -198,12 +193,18 @@
         font-size: 25px;
         color: #000;
     }
+    .hero-section img.hero-img {
+        padding-top: 80px;
+    }
 
     /* ---- About Section ---- */
+    .about-section .card-deck {
+        margin-bottom: 60px;
+    }
     .about-section .card {
         margin-right: 0;
         padding: 20px;
-    }   
+    } 
     .about-section p.card-text {
         font-size: 16px;
     }
@@ -220,5 +221,14 @@
     .clients-section p.card-text {
         font-size: 20px;
     }
+
+   /* ---- Footer Section ---- */
+   .footer-section .features, 
+   .footer-section .resources,
+   .footer-section .company,
+   .footer-section .contact,
+   .footer-section .social-icon {
+       text-align: center;
+   }
 }
 /* =============== END: Small devices =============== */

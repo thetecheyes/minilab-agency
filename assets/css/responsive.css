@@ -1,0 +1,11 @@
+@media (max-width: 992px) {
+    .navbar .navbar-nav li.nav-item {
+        text-align: center;
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar .navbar-nav li.nav-item a.nav-link {
+        color: #000000;
+    }
+}

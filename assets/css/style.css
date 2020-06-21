@@ -61,10 +61,10 @@ h1, h2, h3, h4, h5, h6 {
 .section-title {
     font-size: 64px;
     font-weight: 700;
-    padding: 50px 0 100px;
+    padding: 50px 0 120px;
     margin: 0;
 }
-section.about-section, section.work-section, section.clients-section, section.sing-in-section {
+section.hero-section, section.about-section, section.work-section, section.clients-section, section.sing-in-section {
     position: relative;
 }
 .bg-shape1, .bg-shape2, .bg-shape3 {
@@ -102,14 +102,18 @@ ul.navbar-nav li.nav-item a.nav-link:hover {
 
 /* =============== START: Hero Section =============== */
 
-.hero-section {
-    background-image: url(../images/header-bg.png);
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 150px 0 100px;
+.hero-section .bg-shape1 {
+    left: 150px;
+    top: 405px;
 }
-
+.hero-section .bg-shape2 {
+    left: 225px;
+    top: 465px;
+}
+.hero-section .bg-shape3 {
+    top: 0;
+    right: 0;
+}
 .hero-section h1 {
     padding-top: 400px;
     font-size: 90px;
@@ -121,12 +125,13 @@ ul.navbar-nav li.nav-item a.nav-link:hover {
     color: #8B8B8B;
 }
 .hero-section p {
+    width: 90%;
     font-size: 29px;
     font-weight: 300;
     margin-bottom: 50px;
 }
 .hero-section img.hero-img {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 /* =============== END: Hero Section =============== */
@@ -135,11 +140,15 @@ ul.navbar-nav li.nav-item a.nav-link:hover {
 
 .about-section .bg-shape1 {
     left: 0;
-    top: 250px;
+    top: 310px;
 }
 .about-section .bg-shape2 {
     right: 200px;
     top: 280px;
+}
+.about-section h2.section-title {
+    width: 90%;
+    margin: 0 auto;
 }
 .about-section .card img {
     width: 60px;
@@ -207,6 +216,7 @@ ul.navbar-nav li.nav-item a.nav-link:hover {
     margin: 0;
 }
 .work-section p.work-sec-text {
+    width: 80%;
     font-size: 23px;
     margin-bottom: 50px;
     font-weight: 400;
@@ -224,8 +234,10 @@ ul.navbar-nav li.nav-item a.nav-link:hover {
     bottom: -250px;
 }
 .clients-section p.feedback-text {
+    width: 95%;
     font-size: 23px;
     font-weight: 400;
+    margin-top: 50px;
     margin-bottom: 70px;
 }
 .clients-section .card img {
@@ -262,6 +274,10 @@ ul.navbar-nav li.nav-item a.nav-link:hover {
 /* =============== START: Sign-in Section =============== */
 
 .sing-in-section .bg-shape1 {
+    left: 280px;
+    bottom: 40px;
+}
+.sing-in-section .bg-shape2 {
     right: 0;
     bottom: -100px;
 }

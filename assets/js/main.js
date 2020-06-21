@@ -3,7 +3,7 @@
 
     // Sticky Navbar
     $(window).scroll(function () {
-        if ($('.nav-section').offset().top > 100) {
+        if ($('.nav-section').offset().top > 70) {
             $('.nav-section').addClass('navigation-bg');
         } else {
             $('.nav-section').removeClass('navigation-bg');

@@ -1,11 +1,224 @@
-@media (max-width: 992px) {
-    .navbar .navbar-nav li.nav-item {
-        text-align: center;
+
+
+/* =============== START: Large devices (desktops, less than 1200 px) =============== */
+
+@media (max-width: 1240px) {
+
+    /* ---- Sign-in Section ---- */
+    .sing-in-section .bg-shape1 {
+        left: 80px;
     }
-    
+
+    /* ---- Footer Section ---- */
+    .footer-section ul li a {
+        font-size: 20px;
+    }
 }
+
+/* =============== END: Large devices  =============== */
+
+/* =============== START: Large devices (desktops, less than 1200 px) =============== */
+
+@media (max-width: 1199.98px) {
+
+    /* ---- Base CSS ---- */
+    .section-padding {
+        padding: 100px 0;
+    }
+
+    /* ---- Hero Section ---- */
+    .hero-section h1 {
+        padding-top: 150px;
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+
+    /* ---- About Section ---- */
+    .about-section h2.section-title {
+        width: 100%;
+    }
+    .about-section .card {
+        margin-right: 20px;
+        padding: 30px;
+    }
+    .about-section p.card-text {
+        font-size: 20px;
+    }
+
+    /* ---- Work Section ---- */
+    .work-section .bg-shape2 {
+        left: 170px;
+        bottom: 0px;
+    }
+    .work-section h2.work-sec-title {
+        padding: 20px 0;
+    }
+    .work-section p.work-sec-text {
+        width: 100%;
+    }
+
+    
+    /* ---- Client Section ---- */
+    .clients-section .card {
+        margin-right: 20px;
+    }
+
+
+    /* ---- Footer Section ---- */
+    .footer-section {
+        margin-top: 100px;
+    }
+}
+
+/* =============== END: Large devices  =============== */
+
+/* =============== START: Large devices (tablets, 992 px - 1199 px) =============== */
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* ---- Navbar Section ---- */
     .navbar .navbar-nav li.nav-item a.nav-link {
         color: #000000;
     }
 }
+
+/* =============== END: Large devices =============== */
+
+/* =============== START: Medium devices (landscape phones, less than 992 px) =============== */
+
+@media (max-width: 991.98px) {
+
+    /* ---- Base CSS ---- */
+   .btn-custom {
+       font-size: 20px;
+       padding: 20px 65px;
+   }
+   .section-padding {
+       padding: 80px 0;
+   }
+   .section-title {
+       font-size: 45px;
+       padding: 30px 0 70px;
+   }
+
+   /* ---- Navbar Section ---- */
+   .navbar .navbar-nav li.nav-item {
+       text-align: center;
+   }
+
+    /* ---- Hero Section ---- */
+   .hero-section p {
+    text-align: center;
+    width: 100%;
+   }
+   .hero-section .hero-btn {
+        text-align: center;
+   }
+
+    /* ---- About Section ---- */
+    .about-section .bg-shape2 {
+        right: 50px;
+    }
+    .about-section .card {
+        margin-right: 10px;
+        padding: 20px;
+    }
+
+    /* ---- Work Section ---- */
+    .work-section .demo-video {
+     margin: 30px 0;
+    }
+    .work-section .bg-shape2 {
+       left: 20px;
+       bottom: 0;
+   }
+   .work-section p.work-sec-text {
+       font-size: 20px;
+       margin-bottom: 20px;
+   }
+
+   /* ---- Client Section ---- */
+   .clients-section .feedback-body {
+       text-align: center;
+       margin-bottom: 50px;
+   }
+   .clients-section p.feedback-text {
+       margin: 0 auto 40px;
+   }
+
+   /* ---- Sign-in Section ---- */
+   .sing-in-section form {
+       margin-right: 0;
+       margin-bottom: 30px;
+       text-align: center;
+   }
+   .sing-in-section .sign-in-btn {
+       text-align: center;
+   }
+
+   /* ---- Footer Section ---- */
+    .footer-section {
+        margin-top: 50px;
+    }
+   .footer-section ul li:first-child {
+       margin-bottom: 20px;
+   }
+   .footer-section .features, 
+   .footer-section .resources,
+   .footer-section .company {
+       margin-bottom: 30px;
+   }
+
+   .footer-section .features, 
+   .footer-section .resources,
+   .footer-section .company,
+   .footer-section .contact,
+   .footer-section .social-icon {
+       text-align: center;
+   }
+}
+
+/* =============== END: Medium devices =============== */
+
+/* =============== START: Small devices (portrait phones, less than 768 px) =============== */
+
+@media (max-width: 767.98px) {
+
+    /* ---- Base CSS ---- */
+    .btn-custom {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    /* ---- About Section ---- */
+    .hero-section h1 {
+        font-size: 50px;
+    }
+    .hero-section p {
+        font-size: 25px;
+        color: #000;
+    }
+
+    /* ---- About Section ---- */
+    .about-section .card {
+        margin-right: 0;
+        padding: 20px;
+    }   
+    .about-section p.card-text {
+        font-size: 16px;
+    }
+
+    /* ---- Work Section ---- */
+    .work-section .work-sec-body {
+        text-align: center;
+    }
+
+    /* ---- Client Section ---- */
+    .clients-section .card {
+        margin-right: 0;
+    }
+    .clients-section p.card-text {
+        font-size: 20px;
+    }
+}
+/* =============== END: Small devices =============== */

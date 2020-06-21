@@ -258,6 +258,7 @@ ul.navbar-nav li.nav-item a.nav-link:hover {
 }
 .clients-section h5.card-title {
     background: -webkit-linear-gradient(90deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 40px;
@@ -297,6 +298,7 @@ ul.navbar-nav li.nav-item a.nav-link:hover {
     font-size: 19px;
     font-weight: 700;
     background: -webkit-linear-gradient(90deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
